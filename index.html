@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore | Into a new adventure</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <a href="#site-nav" class="screen-reader-text">skip to our navigation</a>
+    <a href="#content" class="screen-reader-text">skip to the content</a>
+
+    <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+        <symbol id="icon-compass2" viewBox="0 0 32 32">
+            <path d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM3 16c0-7.18 5.82-13 13-13 3.424 0 6.538 1.325 8.86 3.488l-12.86 5.512-5.512 12.86c-2.164-2.322-3.488-5.436-3.488-8.86zM18.286 18.286l-8.003 3.43 3.43-8.003 4.573 4.573zM16 29c-3.424 0-6.539-1.325-8.86-3.488l12.86-5.512 5.512-12.86c2.164 2.322 3.488 5.436 3.488 8.86 0 7.18-5.82 13-13 13z"></path>
+        </symbol>
+        <symbol id="icon-map" viewBox="0 0 32 32">
+            <path d="M0 6l10-4v24l-10 4z"></path>
+            <path d="M12 1l10 6v23l-10-5z"></path>
+            <path d="M24 7l8-6v24l-8 6z"></path>
+        </symbol>
+        <symbol id="icon-bubbles" viewBox="0 0 36 32">
+            <path d="M34 28.161c0 1.422 0.813 2.653 2 3.256v0.498c-0.332 0.045-0.671 0.070-1.016 0.070-2.125 0-4.042-0.892-5.398-2.321-0.819 0.218-1.688 0.336-2.587 0.336-4.971 0-9-3.582-9-8s4.029-8 9-8c4.971 0 9 3.582 9 8 0 1.73-0.618 3.331-1.667 4.64-0.213 0.463-0.333 0.979-0.333 1.522zM16 0c8.702 0 15.781 5.644 15.995 12.672-1.537-0.685-3.237-1.047-4.995-1.047-2.986 0-5.807 1.045-7.942 2.943-2.214 1.968-3.433 4.607-3.433 7.432 0 1.396 0.298 2.747 0.867 3.993-0.163 0.004-0.327 0.007-0.492 0.007-0.849 0-1.682-0.054-2.495-0.158-3.437 3.437-7.539 4.053-11.505 4.144v-0.841c2.142-1.049 4-2.961 4-5.145 0-0.305-0.024-0.604-0.068-0.897-3.619-2.383-5.932-6.024-5.932-10.103 0-7.18 7.163-13 16-13z"></path>
+        </symbol>
+        <symbol id="icon-flag" viewBox="0 0 32 32">
+            <path d="M0 0h4v32h-4v-32z"></path>
+            <path d="M26 20.094c2.582 0 4.83-0.625 6-1.547v-16c-1.17 0.922-3.418 1.547-6 1.547s-4.83-0.625-6-1.547v16c1.17 0.922 3.418 1.547 6 1.547z"></path>
+            <path d="M19 1.016c-1.466-0.623-3.61-1.016-6-1.016-3.012 0-5.635 0.625-7 1.547v16c1.365-0.922 3.988-1.547 7-1.547 2.39 0 4.534 0.393 6 1.016v-16z"></path>
+        </symbol>
+        <symbol id="icon-info" viewBox="0 0 32 32">
+            <path d="M14 9.5c0-0.825 0.675-1.5 1.5-1.5h1c0.825 0 1.5 0.675 1.5 1.5v1c0 0.825-0.675 1.5-1.5 1.5h-1c-0.825 0-1.5-0.675-1.5-1.5v-1z"></path>
+            <path d="M20 24h-8v-2h2v-6h-2v-2h6v8h2z"></path>
+            <path d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 29c-7.18 0-13-5.82-13-13s5.82-13 13-13 13 5.82 13 13-5.82 13-13 13z"></path>
+        </symbol>
+        <symbol id="icon-circle-right" viewBox="0 0 32 32">
+            <path d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 29c-7.18 0-13-5.82-13-13s5.82-13 13-13 13 5.82 13 13-5.82 13-13 13z"></path>
+            <path d="M11.086 22.086l2.829 2.829 8.914-8.914-8.914-8.914-2.828 2.828 6.086 6.086z"></path>
+        </symbol>
+        <symbol id="icon-circle-left" viewBox="0 0 32 32">
+            <path d="M16 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16 7.163 16 16 16zM16 3c7.18 0 13 5.82 13 13s-5.82 13-13 13-13-5.82-13-13 5.82-13 13-13z"></path>
+            <path d="M20.914 9.914l-2.829-2.829-8.914 8.914 8.914 8.914 2.828-2.828-6.086-6.086z"></path>
+        </symbol>
+        <symbol id="icon-right-arrow" viewBox="0 0 31.49 31.49">
+            <path d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111C0.492,14.626,0,15.118,0,15.737c0,0.619,0.492,1.127,1.111,1.127h26.554l-8.047,8.032c-0.429,0.444-0.429,1.159,0,1.587c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z"></path>
+        </symbol>
+        <symbol id="icon-facebook" viewBox="0 0 32 32">
+            <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
+        </symbol>
+        <symbol id="icon-instagram" viewBox="0 0 32 32">
+            <path d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z"></path>
+            <path d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z"></path>
+            <path d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path>
+        </symbol>
+        <symbol id="icon-twitter" viewBox="0 0 32 32">
+            <path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
+        </symbol>
+        <symbol id="icon-youtube" viewBox="0 0 32 32">
+            <path d="M31.681 9.6c0 0-0.313-2.206-1.275-3.175-1.219-1.275-2.581-1.281-3.206-1.356-4.475-0.325-11.194-0.325-11.194-0.325h-0.012c0 0-6.719 0-11.194 0.325-0.625 0.075-1.987 0.081-3.206 1.356-0.963 0.969-1.269 3.175-1.269 3.175s-0.319 2.588-0.319 5.181v2.425c0 2.587 0.319 5.181 0.319 5.181s0.313 2.206 1.269 3.175c1.219 1.275 2.819 1.231 3.531 1.369 2.563 0.244 10.881 0.319 10.881 0.319s6.725-0.012 11.2-0.331c0.625-0.075 1.988-0.081 3.206-1.356 0.962-0.969 1.275-3.175 1.275-3.175s0.319-2.587 0.319-5.181v-2.425c-0.006-2.588-0.325-5.181-0.325-5.181zM12.694 20.15v-8.994l8.644 4.513-8.644 4.481z"></path>
+        </symbol>
+        <symbol id="icon-pinterest" viewBox="0 0 32 32">
+            <path d="M16 2.138c-7.656 0-13.863 6.206-13.863 13.863 0 5.875 3.656 10.887 8.813 12.906-0.119-1.094-0.231-2.781 0.050-3.975 0.25-1.081 1.625-6.887 1.625-6.887s-0.412-0.831-0.412-2.056c0-1.925 1.119-3.369 2.506-3.369 1.181 0 1.756 0.887 1.756 1.95 0 1.188-0.756 2.969-1.15 4.613-0.331 1.381 0.688 2.506 2.050 2.506 2.462 0 4.356-2.6 4.356-6.35 0-3.319-2.387-5.638-5.787-5.638-3.944 0-6.256 2.956-6.256 6.019 0 1.194 0.456 2.469 1.031 3.163 0.113 0.137 0.131 0.256 0.094 0.4-0.106 0.438-0.338 1.381-0.387 1.575-0.063 0.256-0.2 0.306-0.463 0.188-1.731-0.806-2.813-3.337-2.813-5.369 0-4.375 3.175-8.387 9.156-8.387 4.806 0 8.544 3.425 8.544 8.006 0 4.775-3.012 8.625-7.194 8.625-1.406 0-2.725-0.731-3.175-1.594 0 0-0.694 2.644-0.863 3.294-0.313 1.206-1.156 2.712-1.725 3.631 1.3 0.4 2.675 0.619 4.106 0.619 7.656 0 13.863-6.206 13.863-13.863 0-7.662-6.206-13.869-13.863-13.869z"></path>
+        </symbol>
+        <symbol id="icon-up" viewBox="0 0 284.929 284.929">
+            <path d="M282.082,195.285L149.028,62.24c-1.901-1.903-4.088-2.856-6.562-2.856s-4.665,0.953-6.567,2.856L2.856,195.285C0.95,197.191,0,199.378,0,201.853c0,2.474,0.953,4.664,2.856,6.566l14.272,14.271c1.903,1.903,4.093,2.854,6.567,2.854c2.474,0,4.664-0.951,6.567-2.854l112.204-112.202l112.208,112.209c1.902,1.903,4.093,2.848,6.563,2.848c2.478,0,4.668-0.951,6.57-2.848l14.274-14.277c1.902-1.902,2.847-4.093,2.847-6.566C284.929,199.378,283.984,197.188,282.082,195.285z"></path>
+        </symbol>
+        </defs>
+    </svg>    
+
+    <div id="page" class="page">
+
+        <nav id="site-nav" class="nav">
+        <div id="nav-menu" class="nav__menu">
+            <a class="nav__item" href="#"><img class="logo__img" src="img/logo-explore.svg" alt="logo"><span class="screen-reader-text">Home</span></a>
+            <a class="nav__item" href="#">Work</a>
+            <a class="nav__item" href="#">Customer</a>
+            <a class="nav__item" href="#">About</a>
+            <a class="nav__item" href="#">Connect</a>
+        </div>
+        </nav><!--End #site-nav-->
+
+        <header id="#masthead" class="header">
+        <div class="header__text-box">
+            <h1 class="heading-primary"><span class="heading-primary--main visuallyhidden">Explore</span><span class="heading-primary--sub">Into a new adventure</span></h1>
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus rerum quidem dolores nostrum sapiente repellat itaque adipisci ut accusamus facilis maiores cum, explicabo aspernatur similique corrupti quod eos. Error, amet.</p>
+            <a href="#" class="btn btn--light btn-animated">Discover</a>
+        </div>
+        </header><!--End #masthead-->
+
+        <main id="content" class="content">
+        <!-- #hero -->
+        <section id="hero" class="section-hero">
+            <div class="section-hero__text-box">
+            <h2 class="heading-secondary">There is so much to see</h2>
+            <p class="paragraph"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</strong> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m inim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p class="paragraph">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab.</p>
+            </div>
+            <div class="section-hero__img-box">
+            <img src="img/courage.jpg" alt="Hickers on the road">
+            </div>
+        </section>
+        <!-- #courage -->
+        <section id="courage" class="relative section">
+            <div class="wrapper">
+            <div class="twitter-box">
+                <p class="twitter-box_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, suscipit deserunt! Est, et! Minima, dolore quia? Repellat!<br>&commat;loremipsum</p>
+                <svg class="icon icon-twitter">
+                <use xlink:href="#icon-twitter"></use>
+                </svg>
+                <p class="twitter-box__account">&commat;incredibleinc</p>
+            </div>
+            <div class="section__container">
+                <header class="section__header">
+                <h2 class="heading-secondary section__title">It takes courage to be successful</h2>
+                </header>
+                <div class="section__content">
+                <p class="section__lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam sint, cumque et possimus nesciunt sed culpa? Labore itaque beatae, inventore repellat accusantium id nobis ut corrupti, provident obcaecati delectus? Aspernatur tempore magni cum officiis recusandae omnis! Beatae omnis possimus aliquid iusto. Facilis, deleniti! Sequi, quaerat libero accusamus temporibus impedit enim?</p>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam qui eaque eum sunt voluptatum animi harum sit at, distinctio ipsam sapiente optio iure repellat? Ullam dolorum harum sit consequuntur officia assumenda, tempore veniam incidunt nesciunt libero repudiandae. Ipsa, architecto. Consequatur est nesciunt quisquam inventore illum rerum perferendis cum velit ad! Exercitationem, autem reiciendis quaerat magnam labore rem iure! Cum maiores ratione, minus numquam animi praesentium eum temporibus repellendus, tenetur atque assumenda sunt distinctio quia! Fugiat ab iusto neque saepe. Nam pariatur esse amet quo dolorem!</p>
+                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolor beatae recusandae dolorum. Maiores voluptas incidunt quod labore eos odio officiis, natus nesciunt id officia animi, et ipsam quo nobis doloremque? Nulla voluptate deleniti voluptates alias aliquid labore, pariatur magnam blanditiis hic vitae?</p>
+                </div>
+                <div class="learn-more">
+                <a href="" class="btn btn--dark">Learn more</a>
+                </div>
+            </div>          
+            </div>
+        </section>
+        <!-- #expect -->
+        <section id="expect" class="relative section">
+            <div class="featured-image">
+            <picture>
+                <img src="img/expect.jpg" alt="mountain top">
+            </picture>
+            </div>
+            <div class="section__container">
+            <header class="section__header">
+                <h2 class="heading-secondary section__title">Always expect the unexpected</h2>
+            </header>
+            <div class="section__content">
+                <p class="section__lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqutip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet,</p>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            </div>
+        </section>
+        <!-- #beyond -->
+        <section id="beyond" class="relative section">
+            <div class="wrapper">
+            <div class="section__container">
+                <header class="section__header">
+                <h2 class="heading-secondary section__title">To the edge and beyond</h2>
+                </header>
+                <div class="section__content">
+                <article class="hp-article">
+                    <a href="#">
+                    <div class="featured-image">
+                        <div class="overlay"></div>
+                        <a class="more-link" href="#" title="Read the article Closed Eyes">
+                        <svg class="icon icon-right-arrow">
+                            <use xlink:href="#icon-right-arrow"></use>
+                        </svg>
+                        </a>
+                    </div>
+                    <h3 class="heading-tertiary article__title">Closed eyes</h3>
+                    <p class="article__extract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                    </a>
+                </article>
+                <article class="hp-article">
+                    <a href="#">
+                    <div class="featured-image">
+                        <div class="overlay"></div>
+                        <a class="more-link" href="#" title="Read the article Deep breath">
+                        <svg class="icon icon-right-arrow">
+                            <use xlink:href="#icon-right-arrow"></use>
+                        </svg>
+                        </a>
+                    </div>
+                    <h3 class="heading-tertiary article__title">Deep breath</h3>
+                    <p class="article__extract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies
+                        nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                    </a>
+                </article>
+                <article class="hp-article">
+                    <a href="#">
+                    <div class="featured-image">
+                        <div class="overlay"></div>
+                        <a class="more-link" href="#" title="Read the article Press on">
+                        <svg class="icon icon-right-arrow">
+                            <use xlink:href="#icon-right-arrow"></use>
+                        </svg>
+                        </a>
+                    </div>
+                    <h3 class="heading-tertiary article__title">Press on</h3>
+                    <p class="article__extract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies
+                        nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                    </a>
+                </article>
+                </div><!--End .section__content-->
+                <div class="learn-more">
+                <a href="#" class="btn btn--dark">show more<span class="more-link"><svg class="icon icon-right-arrow"><use xlink:href="#icon-right-arrow"></use></svg></span></a>
+                </div>
+            </div><!--End .section__container-->
+            </div>
+        </section>
+        <!-- #contact -->
+        <section id="contact" class="relative section">
+            <div class="section__container">
+            <div class="bg-img"></div>
+            <header class="section__header">
+                <h2 class="heading-secondary section__title">Hard work will be honoured</h2>
+            </header>
+            <div class="section__content">
+                <p class="section__lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqutip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <div class="contact-form">
+                <h2 class="heading-secondary">Don't hesitate to contact us</h2>
+                <form>
+                <label class="screen-reader-text" for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Jane Doe">
+                <label class="screen-reader-text" for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" placeholder="333 123 4560">
+                <label class="screen-reader-text" for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="jane.doe@email.com">
+                <div class="learn-more">
+                    <button class="btn btn--dark" type="submit">off you go<span class="more-link"><svg class="icon icon-right-arrow"><use xlink:href="#icon-right-arrow"></use></svg></span></button>
+                </div>
+                </form>
+            </div>
+            </div>
+        </section>
+        </main>
+        <!-- #colophon -->
+        <footer id="colophon" class="footer">
+        <div class="footer-area">
+            <div class="wrapper">
+            <div class="hentry">
+                <aside class="widget-text">
+                <div class="textwidget">
+                    <p>
+                    <img src="img/logo-explore.svg" alt="logo Explore">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit temporibus velit incidunt quos, quas adipisci aperiam ut sit inventore voluptates.
+                    </p>
+                </div>
+                </aside>
+            </div><!--End .hentry-->
+            <div class="hentry">
+                <aside class="widget-nav">
+                <h2 class="heading-secondary hentry__title">Work</h2>
+                <div id="menu-work" class="widget-nav__container">
+                    <a href="#" class="widget-nav__link">Link to site</a>
+                    <a href="#" class="widget-nav__link">Link to site</a>
+                    <a href="#" class="widget-nav__link">Link to site</a>
+                    <a href="#" class="widget-nav__link">Link to site</a>
+                </div>
+                </aside>
+            </div><!--End .hentry-->
+            <div class="hentry">
+                <aside class="widget-nav">
+                <h2 class="heading-secondary hentry__title">Customer</h2>
+                <div id="menu-customer" class="widget-nav__container">
+                    <a href="#" class="widget-nav__link">Link to site</a>
+                    <a href="#" class="widget-nav__link">Link to site</a>
+                    <a href="#" class="widget-nav__link">Link to site</a>
+                    <a href="#" class="widget-nav__link">Link to site</a>
+                </div>
+                </aside>
+            </div>
+            <!--End .hentry-->
+            <div class="hentry">
+                <aside class="widget-nav">
+                <h2 class="heading-secondary hentry__title">About</h2>
+                <div id="menu-about" class="widget-nav__container">
+                    <a href="#" class="widget-nav__link">Link to site</a>
+                    <a href="#" class="widget-nav__link">Link to site</a>
+                    <a href="#" class="widget-nav__link">Link to site</a>
+                </div>
+                </aside>
+            </div>
+            <!--End .hentry-->
+            </div>
+        </div>
+        <div class="site-info">
+            <div class="wrapper">
+            <span>Copyright &copy; 2021</span>
+            <span>All rights reserved | Explore, designed by <a href="https://www.behance.net/gallery/43629565/Explore-PSD-Website-Template" target="_blank">Ingo Solbach</a></span>
+            </div>
+        </div>
+        <div class="backtotop">
+            <svg class="icon icon-up">
+            <use href="#icon-up" xlink:href="#icon-up"></use>
+            </svg>
+        </div>
+        </footer>
+
+    </div><!--End #page-->
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

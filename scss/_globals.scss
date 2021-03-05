@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: $font-size-default;
+}
+
+body {
+    box-sizing: border-box;
+    font: 400 $font-size-default/1.8 $font-family-body;
+    color: $color-primary;
+}
+
+.page {
+    max-width: $bp-largest;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+/* TYPOGRAPHY */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-family-title;
+}
+
+a {
+    color: $color-primary;
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
