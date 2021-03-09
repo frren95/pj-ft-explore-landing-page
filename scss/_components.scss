@@ -1,0 +1,32 @@
+/* NAVIGATION */
+.logo__img {
+  width: 4rem;
+}
+
+.nav {
+  font-family: $font-family-navigation;
+
+  & .nav__menu {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    & a {
+      padding: 1rem;
+      align-self: center;
+      text-transform: uppercase;
+      text-decoration: none;
+
+      &:nth-child(2),
+      &:nth-child(3){
+        order: -1;
+      }
+
+      &:focus,
+      &:hover {
+        text-decoration: underline;
+        color: $color-accent;
+      }    
+    }
+  }
+}
